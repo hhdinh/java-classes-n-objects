@@ -6,8 +6,7 @@ public class Pet {
 	private String location;
 	private String type;
 
-	public Pet() {
-	}
+	public Pet() {}
 
 	public Pet(String name, int age, String location, String type) {
 		this.name = name;
