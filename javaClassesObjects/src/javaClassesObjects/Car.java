@@ -41,4 +41,12 @@ public class Car {
 	public void setYear(int year) {
 		this.year = year;
 	}
+
+	public String displayCar() {
+		return "Car{" + "make='" + make + '\'' + ", model='" + model + '\'' + ", year=" + year + '}';
+	}
+
+	public boolean isOldCar() {
+		return year < 2021;
+	}
 }
