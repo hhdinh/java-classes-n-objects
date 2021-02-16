@@ -3,8 +3,8 @@ package javaClassesObjects;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		Car car = new Car("Honda", "Civic", 1999);
+		System.out.println(car.displayCar());
+		System.out.println(car.isOldCar());
 	}
-
 }
